@@ -65,7 +65,54 @@ ul {
     /* Elimina el margen */
 }
 
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
 img {
     width: 100%;
     object-fit: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+main .projects {}
+
+main .projects li {
+    width: 100%;
+    padding: 1rem;
+}
+
+main .experience {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
