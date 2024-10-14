@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F08080;
+    /* color suave de fondo */
+    color: #333;
+}
+
+.header {
+    background-color: #FF4500;
+    /* naranja intenso */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #FFD700;
+    /* dorado */
+    color: #FF4500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cta-button:hover {
+    background-color: #FF8C00;
+    /* naranja oscuro */
+    color: white;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about {
+    background-color: #FF6347;
+    /* rojo tomate */
+    color: white;
+}
+
+.services {
+    background-color: #FFD700;
+    /* dorado */
+}
+
+.services ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.services li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #FF4500;
+    /* naranja intenso */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
